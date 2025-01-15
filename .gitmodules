@@ -1,0 +1,9 @@
+[submodule "prereq-ts"]
+	path = prereq-ts
+	url = https://github.com/Jan-libar-io/Turbin3-Builders-Cohort-Prerequisites-Enrollment-dApp-typescript
+[submodule "prereq-rust"]
+	path = prereq-rust
+	url = https://github.com/Jan-libar-io/Turbin3-Builders-Cohort-Prerequisites-Enrollment-dApp-rust
+[submodule "solana-starter"]
+	path = solana-starter
+	url = https://github.com/Jan-libar-io/Turbin3-Builders-Cohort-Solana-Starter
