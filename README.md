@@ -30,6 +30,6 @@ Our first module in the world of Solana programming.
 
 - The goal of the first class was to initialize a spl token and mint it.
 
-## Maintainer / Contact <img src="./gears.svg">
+## Maintainer / Contact <img src="./gears.svg" style={height: 24px;}>
 
 - Jan Jankowski jan.jankowski@libar.io
