@@ -7,3 +7,6 @@
 [submodule "solana-starter"]
 	path = solana-starter
 	url = https://github.com/Jan-libar-io/Turbin3-Builders-Cohort-Solana-Starter
+[submodule "anchor_vault"]
+	path = anchor_vault
+	url = https://github.com/Jan-libar-io/Turbin3-Builders-Cohort-Anchor-Vault.git
