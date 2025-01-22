@@ -57,11 +57,13 @@ The goal of the escrow program is to allow a swap of tokens between two parties 
 
 This escrow example works as follows:
 
-- The maker initalizes an escrow and deposits a certain amount of mint_a into the escrow's vault. During the initialization they also define the maount of mint_b they want to receive in order to execute the swap.
+- The maker initalizes an escrow and deposits a certain amount of token_a into the escrow's vault. During the initialization they also define the amount of token_b they want to receive in order to execute the swap.
 
-- The taker then deposits set maount of mint_b into the escrow's vault.
+- The taker then deposits set amount of token_b in the escrow.
 
-- Finally the escrow sends the mint_a it stored in its vault to the taker and is closed.
+- Finally the escrow sends the token_a it stored in its vault to the taker and is closed.
+
+- Upon it's closure the escrow transfers the token_b that it recieved from the taker to the maker.
 
 ## Maintainer / Contact <img src="./assets/gears-icon.svg">
 
