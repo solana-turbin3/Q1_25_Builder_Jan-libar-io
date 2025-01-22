@@ -10,3 +10,6 @@
 [submodule "anchor_vault"]
 	path = anchor_vault
 	url = https://github.com/Jan-libar-io/Turbin3-Builders-Cohort-Anchor-Vault.git
+[submodule "anchor_escrow"]
+	path = anchor_escrow
+	url = https://github.com/Jan-libar-io/Turbin3-Builders-Cohort-Anchor-Escrow.git
