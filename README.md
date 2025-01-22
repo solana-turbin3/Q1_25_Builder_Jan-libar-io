@@ -49,6 +49,20 @@ in it's implementation and that is not possible for system accounts. The work ar
 to close the vault state account and setup the vault itself as a mutable account and then simply transfer all the
 remaining solana to the users address inside the implementation function.
 
+### anchor-escrow <img src="./assets/rust-icon.svg">
+
+After learning how to create a vault, we expanded our knowledge to one of if not the most important program pattern in web3 - the escrow.
+
+The goal of the escrow program is to allow a swap of tokens between two parties with the program taking care of securing the swap, so making sure that the conditions for the swap are met on both sides.
+
+This escrow example works as follows:
+
+- The maker initalizes an escrow and deposits a certain amount of mint_a into the escrow's vault. During the initialization they also define the maount of mint_b they want to receive in order to execute the swap.
+
+- The taker then deposits set maount of mint_b into the escrow's vault.
+
+- Finally the escrow sends the mint_a it stored in its vault to the taker and is closed.
+
 ## Maintainer / Contact <img src="./assets/gears-icon.svg">
 
 - Jan Jankowski jan.jankowski@libar.io
