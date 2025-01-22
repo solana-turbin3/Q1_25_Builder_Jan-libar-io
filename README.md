@@ -6,7 +6,7 @@ This cohort focuses on the foundational knowledge and prectical skills needed to
 
 ## Directories Overview
 
-### airdrop
+### airdrop <img src="./assets/typescript-icon.svg">
 
 The very first challenge recieved before joining the cohort.
 The tasks consisted of:
@@ -20,11 +20,11 @@ The tasks consisted of:
 
 This task was written in _typescript_
 
-### airdrop-rust
+### airdrop-rust <img src="./assets/rust-icon.svg">
 
 The next step still in the prerequisites phase was to repeat the process from the first task in _rust_
 
-### solana-starter
+### solana-starter <img src="./assets/typescript-icon.svg">
 
 Our first module in the world of Solana programming.
 
@@ -35,7 +35,7 @@ Our first module in the world of Solana programming.
 - As an additional practice I explored the creation of nft collections and ended up writing modules
   for batch image and metadata json upload as well as a batch transfer function.
 
-### anchor-vault
+### anchor-vault <img src="./assets/rust-icon.svg">
 
 The second week of our lectures took us into anchor and rust. First we implemented a
 solana vault. The main take aways were:
@@ -49,6 +49,6 @@ in it's implementation and that is not possible for system accounts. The work ar
 to close the vault state account and setup the vault itself as a mutable account and then simply transfer all the
 remaining solana to the users address inside the implementation function.
 
-## Maintainer / Contact <img src="./gears.svg">
+## Maintainer / Contact <img src="./assets/gears-icon.svg">
 
 - Jan Jankowski jan.jankowski@libar.io
