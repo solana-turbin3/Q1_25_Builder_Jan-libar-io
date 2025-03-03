@@ -13,3 +13,6 @@
 [submodule "anchor_escrow"]
 	path = anchor_escrow
 	url = https://github.com/Jan-libar-io/Turbin3-Builders-Cohort-Anchor-Escrow.git
+[submodule "anchor_marketplace"]
+	path = anchor_marketplace
+	url = https://github.com/Jan-libar-io/Turbin3-Builders-Cohort-Anchor-Marketplace
