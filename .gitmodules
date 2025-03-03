@@ -16,3 +16,6 @@
 [submodule "anchor_marketplace"]
 	path = anchor_marketplace
 	url = https://github.com/Jan-libar-io/Turbin3-Builders-Cohort-Anchor-Marketplace
+[submodule "referee_program"]
+	path = referee_program
+	url = https://github.com/Jan-libar-io/referee_program
