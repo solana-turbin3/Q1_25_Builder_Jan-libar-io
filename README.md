@@ -65,6 +65,18 @@ This escrow example works as follows:
 
 - Upon it's closure the escrow transfers the token_b that it recieved from the taker to the maker.
 
+### anchor-marketplace <img src="./assets/rust-icon.svg">
+
+An NFT marketplace is an online platform where users can buy, sell, and trade Non-Fungible Tokens (NFTs), which are unique digital assets stored on a blockchain. These marketplaces operate similarly to e-commerce sites but are tailored for digital collectibles, artwork, music, virtual real estate, and other tokenized items that certify ownership and authenticity.
+
+This is an example of implementation of a marketplace on Solana.
+
+- The admin can initialize a marketplace and set a fee for it.
+
+- The maker can list or delist items on the marketplace.
+
+- The taker can purchase listed nft's.
+
 ## Maintainer / Contact <img src="./assets/gears-icon.svg">
 
 - Jan Jankowski jan.jankowski@libar.io
